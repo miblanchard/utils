@@ -4,6 +4,12 @@
 # Debug Mode
 # set -x
 
+# Requires that you have installed Android Studio
+
+# add this to your bash/zsh profile (or wherever you choose to install it)
+# Android Studio lines
+# export ANDROID_HOME=$HOME/Library/Android/sdk
+
 main()
 {
     ADB="$ANDROID_HOME/platform-tools/adb"
